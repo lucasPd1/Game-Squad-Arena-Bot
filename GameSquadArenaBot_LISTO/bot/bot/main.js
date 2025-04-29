@@ -1,0 +1,1 @@
+Contenido simulado de main.js

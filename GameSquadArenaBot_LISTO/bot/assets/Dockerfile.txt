@@ -1,0 +1,11 @@
+# Usa una imagen oficial de Node.js
+FROM node:20
+
+# Crea un directorio para la app
+WORKDIR /app
+
+# Copia todo el contenido del proyecto al contenedor
+COPY . .
+
+# Comando para correr tu bot
+CMD ["node", "bot/main.js"]
